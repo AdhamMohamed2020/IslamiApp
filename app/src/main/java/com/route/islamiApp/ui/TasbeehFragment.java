@@ -1,0 +1,30 @@
+package com.route.islamiApp.ui;
+
+
+import android.os.Bundle;
+
+import androidx.fragment.app.Fragment;
+
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+
+import com.route.islamiApp.R;
+
+
+public class TasbeehFragment extends Fragment {
+
+
+    public TasbeehFragment() {
+
+    }
+
+
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+        // Inflate the layout for this fragment
+        return inflater.inflate(R.layout.fragment_tasbeeh, container, false);
+    }
+
+}
